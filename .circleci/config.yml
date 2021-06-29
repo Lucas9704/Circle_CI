@@ -27,4 +27,4 @@ workflows:
   send-notification:
     jobs:
       - notify:
-          context: SLACK_ACCESS_TOKEN
+          context: $SLACK_ACCESS_TOKEN
