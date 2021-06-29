@@ -27,10 +27,5 @@ workflows:
   send-notification:
     jobs:
       - notify:
-<<<<<<< HEAD
           context:
             - SLACK_ACCESS_TOKEN
-=======
-         context: 
-           -slack-secrets
->>>>>>> 721a64b0b98a2a9fe663770def7836d7db52062f
